@@ -14,7 +14,7 @@ class Item extends Component {
                 <h2 className="product-name">{this.props.bunName}</h2>
 
                 <div className="glazing">
-                    <label for="glazing-select">Glazing:</label>
+                    <label>Glazing:</label>
                 
                     <select name="glazing" className="glazing-select">
                         <option value="original">Keep original</option>
@@ -26,10 +26,10 @@ class Item extends Component {
 
                 <div className="pack-size">
                     <label>Pack size:</label>
-                    <button class="btn-pack-size">1</button>
-                    <button class="btn-pack-size">3</button>
-                    <button class="btn-pack-size">6</button>
-                    <button class="btn-pack-size">12</button>
+                    <button className="btn-pack-size">1</button>
+                    <button className="btn-pack-size">3</button>
+                    <button className="btn-pack-size">6</button>
+                    <button className="btn-pack-size">12</button>
                 </div>
 
                 <div className="add-to-cart">
